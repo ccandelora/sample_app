@@ -42,6 +42,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.17.2)
+    pg (0.14.0)
     polyglot (0.3.3)
     rack (1.2.5)
     rack-mount (0.6.14)
@@ -91,6 +92,7 @@ PLATFORMS
 
 DEPENDENCIES
   annotate (= 2.4.0)
+  pg
   rails (= 3.0.11)
   rspec-rails (= 2.6.1)
   spork (= 0.9.0.rc8)
